@@ -1,4 +1,4 @@
-# DomustoDash
+# DomustoDash for Domoticz
 An adaptive, highly customizable dashboard for Domoticz with support for themes, color schemes and widgets.
 
 #### Theme: default
