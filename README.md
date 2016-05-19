@@ -3,6 +3,9 @@ A highly customizable dashboard for Domoticz with theming, color scheme and widg
 
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash.png)
 
+## Warning
+Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
+
 ## Installation
 Clone this repo to a server hosting your dashboard. This can be any server capable of serving files and html e.g. Apache, NGINX.
 
