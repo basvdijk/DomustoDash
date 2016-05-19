@@ -1,7 +1,11 @@
 # DomustoDash
 A highly customizable dashboard for Domoticz with theming, color scheme and widget support
 
+`Theme: default`
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash.png)
+
+`Theme: lcd, color-scheme: yellow`
+![DumustoDash screenshot](http://usto.nl/misc/domusto/theme-lcd-yellow.png)
 
 ## Warning
 Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
