@@ -1,5 +1,5 @@
 # DomustoDash
-A highly customizable dashboard for Domoticz with theming, color scheme and widget support
+An adaptive, highly customizable dashboard for Domoticz with support for themes, color schemes and widgets.
 
 #### Theme: default
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png)
