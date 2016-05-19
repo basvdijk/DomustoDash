@@ -1,5 +1,5 @@
 # DomustoDash
-A highly customizable dashboard for Domoticz with theming support
+A highly customizable dashboard for Domoticz with theming, color scheme and widget support
 
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash.png)
 
@@ -121,3 +121,16 @@ grid: [
 
 ]
 ```
+
+## Widgets
+
+Besides Domoticz data, DomustoDash supports some standalone widgets which could be loaded into dashboard cells:
+
+### Buienradar
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-buienradar.png)
+
+### Google Finance
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-finance.png)
+
+### Calendar / Clock
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-clock.png)
