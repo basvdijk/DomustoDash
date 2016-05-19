@@ -1,6 +1,11 @@
 # DomustoDash for Domoticz
 An adaptive, highly customizable dashboard for Domoticz with support for themes, color schemes and widgets.
 
+# Warning
+Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
+
+## Themes
+
 #### Theme: `default` based on [frontpage.html](https://www.domoticz.com/forum/viewtopic.php?f=8&t=4698)
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png)
 
@@ -10,8 +15,6 @@ An adaptive, highly customizable dashboard for Domoticz with support for themes,
 #### Theme: `lcd`, color-scheme: `yellow`
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/theme-lcd-yellow.png)
 
-## Warning
-Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
 
 ## Installation
 Clone this repo to a server hosting your dashboard. This can be any server capable of serving files and html e.g. Apache, NGINX.
