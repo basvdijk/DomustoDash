@@ -1,6 +1,8 @@
 # DomustoDash
 A highly customizable dashboard for Domoticz with theming support
 
+![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash.png)
+
 ## Installation
 Clone this repo to a server hosting your dashboard. This can be any server capable of serving files and html e.g. Apache, NGINX.
 
@@ -36,7 +38,7 @@ String used to display when there is no data available
 ### showCellNumbers: boolean
 When `true`, DomustoDash renders the cell numbers to speed up the configuration of the cells.
 
-
+![showCellNumbers screenshot](http://usto.nl/misc/domusto/DomustoDash-showCellNumbers.png)
 
 ## Temperature and Humidity
 
