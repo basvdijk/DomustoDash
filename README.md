@@ -1,13 +1,13 @@
 # DomustoDash
 A highly customizable dashboard for Domoticz with theming, color scheme and widget support
 
-`Theme: default`
+#### Theme: default
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png)
 
-`Theme: default` on small screen
+#### Theme: default on small screen
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-small.png)
 
-`Theme: lcd, color-scheme: yellow`
+#### Theme: lcd, color-scheme: yellow
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/theme-lcd-yellow.png)
 
 ## Warning
