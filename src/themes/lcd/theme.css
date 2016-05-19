@@ -1,0 +1,70 @@
+/*
+
+Author: Bas van Dijk
+
+Color schemes:
+  - blue
+  - yellow
+  - green
+
+*/
+
+@font-face {
+    font-family: 'Erbos-Draco-1st-Open-NBP';
+    src: url("erbos-draco-1st/Erbos-Draco-1st-Open-NBP.otf") format("opentype"), url('erbos-draco-1st/Erbos-Draco-1st-Open-NBP.woff') format('woff'), url('erbos-draco-1st/Erbos-Draco-1st-Open-NBP.ttf') format('truetype'), url('erbos-draco-1st/Erbos-Draco-1st-Open-NBP.svg#Erbos-Draco-1st-Open-NBP') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.grid__cell__content {
+    background-image: url(noise.png);
+    background-color: #96c18c;
+    color: #000000;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+}
+.theme-blue .grid__cell__content {
+    background-color: #27b2c3;
+}
+.theme-green .grid__cell__content {
+    background-color: #43c327;
+}
+.theme-yellow .grid__cell__content {
+    background-color: #c3b327;
+}
+
+/*****************************************************************************/
+
+body, html {
+    background-color: #212121;
+}
+body {
+    font-family: Erbos-Draco-1st-Open-NBP;
+    /*background: url('https://c4.staticflickr.com/5/4147/5183801939_78b68ec258_b.jpg');*/
+}
+
+.grid__cell__content {
+    text-align: center;
+}
+
+.switch--on .grid__cell__content {
+  background-color: #96c18c;
+}
+/*
+.grid__cell.switch--off {
+  background-color: #f1d092;
+}*/
+
+.grid__cell__value {
+  font-size: 130%;
+}
+.grid__cell__label {
+  font-size: 90%;
+  margin-top: 0.9em;
+  text-transform: uppercase;
+}
+.grid__cell__status {
+  font-size: 60%;
+  margin-top: 0.7em;
+}
+.temp__decimal {
+    font-size: 50%;
+}

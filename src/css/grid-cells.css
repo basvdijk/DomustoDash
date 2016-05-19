@@ -1,0 +1,13 @@
+.grid__row > .grid__cell {
+    height: 100px;
+}
+
+#cell1, #cell5 {
+  flex: 25%;
+}
+
+#cell4 {
+  flex: 50%;
+  height: 200px;
+  font-size: 150%;
+}
