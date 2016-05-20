@@ -25,7 +25,7 @@ function updateStock(gridCell, widgetConfig) {
 
     setTimeout(function() {
         updateStock(gridCell, widgetConfig);
-    }, 30000);
+    }, 60000);
 
 }
 
