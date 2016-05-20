@@ -10,7 +10,7 @@ var config = {
         noDataValue: '&mdash;',
         theme: 'default',
         colorScheme: 'yellow',
-        showCellNumbers: true
+        showCellNumbers: false
     },
 
     tempHumidity: {
@@ -86,6 +86,10 @@ var config = {
             widgetConfig: {
                 symbol: 'GOOG'
             }
+        },
+        {
+            cell: 12,
+            widget: 'domoticzUpdateAvailable',
         }
 
     ]
