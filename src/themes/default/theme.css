@@ -66,6 +66,18 @@ body {
     font-size: 50%;
 }
 
+@media(max-width: 640px) {
+
+  .grid__cell {
+    min-height: 100px;
+  }
+
+  .grid__cell__value {
+    font-size: 20px;
+  }
+
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Arimo';
