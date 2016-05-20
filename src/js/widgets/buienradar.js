@@ -9,7 +9,7 @@ function updateBuienRadar(gridCell, widgetConfig) {
 
     setTimeout(function() {
         updateBuienRadar(gridCell, widgetConfig);
-    }, 30000);
+    }, 900000); // 15 minutes
 }
 
 widgets.buienradar = updateBuienRadar;
