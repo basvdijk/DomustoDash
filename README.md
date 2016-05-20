@@ -4,6 +4,22 @@ An adaptive, highly customizable dashboard for Domoticz with support for themes,
 # Warning
 Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
 
+## Widgets
+
+Besides Domoticz data, DomustoDash supports some standalone widgets which could be loaded into dashboard cells:
+
+### Buienradar
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-buienradar.png)
+
+### Google Finance
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-finance.png)
+
+### Calendar / Clock
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-clock.png)
+
+### Domoticz update available check
+![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-domoticz-update-available.png)
+
 ## Themes
 
 #### Theme: `default` based on [frontpage.html](https://www.domoticz.com/forum/viewtopic.php?f=8&t=4698)
@@ -135,15 +151,4 @@ grid: [
 ]
 ```
 
-## Widgets
 
-Besides Domoticz data, DomustoDash supports some standalone widgets which could be loaded into dashboard cells:
-
-### Buienradar
-![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-buienradar.png)
-
-### Google Finance
-![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-finance.png)
-
-### Calendar / Clock
-![DumustoDash screenshot](http://usto.nl/misc/domusto/widget-clock.png)
