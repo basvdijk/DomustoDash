@@ -57,6 +57,7 @@ var config = {
         {
             cell: 7,
             field: 'CounterToday',
+            label: 'Dagverbruik',
             idx: 220,
         },
 

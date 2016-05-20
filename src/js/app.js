@@ -51,29 +51,40 @@ function cellConfigByIdx(idx) {
 
 }
 
-function processData(data) {
+function processData(response) {
 
-    $.each(data, function(index, object) {
+    for (var i = 0; i < config.grid.length; i++) {
 
-        var cellConfig = cellConfigByIdx(object.idx);
+        var cellConfig = config.grid[i];
 
-        if (cellConfig) {
+        var data = null;
+
+        $.each(response, function(index, object) {
+
+            if (cellConfig.idx == object.idx) {
+                data = object;
+            }
+
+        });
+
+
+        if (data) {
 
             var cellIndex = cellConfig.cell;
             var gridCell = $('#cell' + cellIndex);
 
-            switch (object.Type) {
+            switch (data.Type) {
 
                 case 'Temp + Humidity':
-                    updateTempHumidity(gridCell, cellConfig, object);
+                    updateTempHumidity(gridCell, cellConfig, data);
                     break;
 
                 case 'P1 Smart Meter':
 
-                    switch (object.SubType) {
+                    switch (data.SubType) {
 
                         case 'Energy':
-                            updateP1Energy(gridCell, cellConfig, object);
+                            updateP1Energy(gridCell, cellConfig, data);
                             break;
 
                     }
@@ -84,15 +95,15 @@ function processData(data) {
                 case 'Lighting 3':
                 case 'Lighting 4':
 
-                    switch (object.SwitchType) {
+                    switch (data.SwitchType) {
                         case 'On/Off':
 
-                            updateSwitchOnOff(gridCell, cellConfig, object);
+                            updateSwitchOnOff(gridCell, cellConfig, data);
                             break;
 
                         case 'Blinds':
 
-                            updateSwitchBlinds(gridCell, cellConfig, object)
+                            updateSwitchBlinds(gridCell, cellConfig, data)
                             break;
 
                     };
@@ -103,8 +114,7 @@ function processData(data) {
 
         }
 
-    });
-
+    }
 
 }
 
