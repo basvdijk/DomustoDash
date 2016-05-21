@@ -62,7 +62,7 @@ var config = {
         },
 
         {
-            cell: 8,
+            cell: 13,
             label: 'Tuinverlichting',
             idx: 94
         },
@@ -89,9 +89,36 @@ var config = {
             }
         },
         {
-            cell: 12,
+            cell: 14,
+          //  label: 'Tuinverlichting',
+            idx: 93
+        },
+        {
+            cell: 15,
             widget: 'domoticzUpdateAvailable',
-        }
+        },
+        {
+            cell: 8,
+            idx: 135,
+            label: 'Studeerkamer',
+        },
+        {
+            cell: 12,
+            idx: 136,
+            label: 'Achtertuin',
+        },
+
+        {
+            cell: 17,
+            idx: 8,
+        },
+
+        {
+            cell: 18,
+            idx: 50,
+        },
+
+
 
     ]
 }

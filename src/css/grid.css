@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-@media(max-width: 640px) {
+@media(max-width: 1600px) {
 
   .grid__row, .grid__col {
     flex-wrap: wrap;
@@ -44,11 +44,13 @@ body {
     flex-direction: column;
 }
 .grid__col .grid__cell__content {
-    height: calc(100% - 10px);
+    height: 95px; /* calc(100% - 10px); */
 }
 .grid__cell {
     flex: 1;
-        position: relative;
+    position: relative;
+    min-width: 150px;
+    min-height: 100px;
 }
 .grid__cell__content {
     height: 100%;

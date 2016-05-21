@@ -4,7 +4,7 @@ function updateSwitchOnOff(gridCell, cellConfig, data) {
 
   gridCell.find('.grid__cell__value').html(data.Data == 'On' ? config.switch.labelOn : config.switch.labelOff);
 
-  gridCell.removeClass('switch--on', 'switch--off');
+  gridCell.removeClass('switch--on, switch--off');
 
   gridCell.addClass('switch--' + data.Data.toLowerCase());
 
@@ -12,6 +12,15 @@ function updateSwitchOnOff(gridCell, cellConfig, data) {
   gridCell.find('.grid__cell__label').html(customLabel || data.Name);
 
   gridCell.find('.grid__cell__status').hide();
+
+  gridCell.off('click');
+
+  gridCell.on('click', function(e) {
+
+    switchToggle(cellConfig.idx, data.Data == 'On' ? 'Off' : 'On');
+    gridCell.removeClass('switch--on, switch--off');
+    gridCell.addClass(data.Data == 'On' ? 'switch--off' : 'switch--on');
+  });
 
 }
 
