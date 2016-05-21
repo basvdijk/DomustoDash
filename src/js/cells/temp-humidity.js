@@ -1,6 +1,6 @@
 function updateTempHumidity(gridCell, cellConfig, data) {
-  var valueTemp = parseFloat(data.Temp).toFixed(cellConfig.tempDecimals);
-  var valueHumidity = parseFloat(data.Humidity).toFixed(cellConfig.humidityDecimals);
+  var valueTemp = parseFloat(data.Temp).toFixed(config.tempHumidity.tempDecimals);
+  var valueHumidity = parseFloat(data.Humidity).toFixed(config.tempHumidity.humidityDecimals);
 
   gridCell.find('.grid__cell__value').html(
     valueTemp +
