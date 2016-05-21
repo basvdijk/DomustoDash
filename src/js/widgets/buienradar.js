@@ -1,3 +1,15 @@
+function initBuienRader(gridCell, widgetConfig) {
+
+    $(gridCell).css('cursor', 'pointer');
+
+    $(gridCell).on('click', function() {
+        window.open('http://buienradar.nl', 'buienradar');
+        return false;
+    });
+
+    updateBuienRadar(gridCell, widgetConfig);
+}
+
 function updateBuienRadar(gridCell, widgetConfig) {
 
     var uniqueString = (new Date()).getTime();
@@ -12,4 +24,4 @@ function updateBuienRadar(gridCell, widgetConfig) {
     }, 900000); // 15 minutes
 }
 
-widgets.buienradar = updateBuienRadar;
+widgets.buienradar = initBuienRader;
