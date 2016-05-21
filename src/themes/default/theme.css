@@ -42,6 +42,10 @@ body {
   color: #1B9772;
 }
 
+.switch--on .grid__cell__content {
+  border: 1px solid #1B9772;
+}
+
 .stock--negative .grid__cell__value,
 .switch--off .grid__cell__value {
   color: #E24E2A;
