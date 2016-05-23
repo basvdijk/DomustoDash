@@ -50,12 +50,12 @@ var config = {
 
 
         {
-            cell: 6,
+            cell: 7,
             idx: 220,
         },
 
         {
-            cell: 7,
+            cell: 6,
             field: 'CounterToday',
             label: 'Dagverbruik',
             idx: 220,
