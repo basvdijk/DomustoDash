@@ -60,6 +60,11 @@ body {
   color: #fff;
   font-size: 30px;
 }
+
+.grid__cell__decimal {
+  font-size: 15px;
+}
+
 .grid__cell__label {
   color: #abacb0;
   font-size: 90%;
