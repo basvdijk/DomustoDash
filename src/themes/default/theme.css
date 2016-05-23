@@ -51,6 +51,10 @@ body {
   color: #E24E2A;
 }
 
+.stock--closed .grid__cell__value {
+  color: #AAA;
+}
+
 
 .grid__cell__value {
   color: #fff;

@@ -5,12 +5,25 @@ function updateStock(gridCell, widgetConfig) {
         async: false,
         success: function(data) {
 
-            gridCell.removeClass('stock--negative', 'stock--positive');
+            var lastTrade = new Date(data[0].lt_dts).getTime();
+            var now = new Date().getTime();
 
-            if (data[0].cp >= 0) {
-              gridCell.addClass('stock--positive');
+            var marketClosed = (now - lastTrade) > 60000;
+
+            gridCell.removeClass('stock--negative');
+            gridCell.removeClass('stock--positive');
+            gridCell.removeClass('stock--closed');
+
+            if (!marketClosed) {
+
+              if (data[0].cp >= 0) {
+                gridCell.addClass('stock--positive');
+              } else {
+                gridCell.addClass('stock--negative');
+              }
+
             } else {
-              gridCell.addClass('stock--negative');
+                gridCell.addClass('stock--closed');
             }
 
             gridCell.find('.grid__cell__label').html(data[0].t);
