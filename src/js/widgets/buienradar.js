@@ -14,7 +14,7 @@ function updateBuienRadar(gridCell, widgetConfig) {
 
     var uniqueString = (new Date()).getTime();
 
-    gridCell.css('background-image', 'url(http://buienradar.nl/image?type=zozw&' + uniqueString + ')');
+    gridCell.css('background-image', 'url(http://api.buienradar.nl/image/1.0/RadarMapNL?w=400&h=400&' + uniqueString + ')');
     gridCell.css('background-size', 'cover');
     gridCell.css('background-position', 'center center');
     gridCell.css('background-repeat', 'no-repeat');
