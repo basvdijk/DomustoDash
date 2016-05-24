@@ -1,6 +1,9 @@
 # DomustoDash for Domoticz
 An adaptive, highly customizable dashboard for Domoticz with support for themes, color schemes and widgets.
 
+Theme: `default` based on [frontpage.html](https://www.domoticz.com/forum/viewtopic.php?f=8&t=4698)
+![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png?v=3)
+
 Configuration is very easy using the json format, where you can simply define the `idx` and `cell number`. Optionally you can define, widgets, labels, custom fields and formatting.
 
 ```
