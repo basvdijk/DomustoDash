@@ -1,6 +1,40 @@
 # DomustoDash for Domoticz
 An adaptive, highly customizable dashboard for Domoticz with support for themes, color schemes and widgets.
 
+Configuration is very easy using the json format, where you can simply define the `idx` and `cell number`. Optionally you can define, widgets, labels, custom fields and formatting.
+
+```
+grid: [
+
+    {
+        cell: 0,
+        idx: 134,
+        label: 'Living room',
+    },
+    {
+        cell: 1,
+        idx: 130,
+        label: 'Garage',
+    },
+    {
+        cell: 11,
+        widget: 'stock',
+        widgetConfig: {
+            symbol: 'GOOG'
+        }
+    },
+    {
+        cell: 7,
+        field: 'CounterToday',
+        label: 'Dagverbruik',
+        idx: 220,
+    },
+
+]
+```
+
+
+
 # Warning
 Please use DomustoDash on your own risk. This dashboard is under heavy development. Your own created themes and widgets might become broken during updates on DomoticzDash.
 
@@ -122,38 +156,4 @@ widgetConfig: {
 }
 ```
 Defines the symbol to use for the stock widget.
-
-
-### Example config.js
-
-```
-grid: [
-
-    {
-        cell: 0,
-        idx: 134,
-        label: 'Living room',
-    },
-    {
-        cell: 1,
-        idx: 130,
-        label: 'Garage',
-    },
-    {
-        cell: 11,
-        widget: 'stock',
-        widgetConfig: {
-            symbol: 'GOOG'
-        }
-    },
-    {
-        cell: 7,
-        field: 'CounterToday',
-        label: 'Dagverbruik',
-        idx: 220,
-    },
-
-]
-```
-
 
