@@ -49,7 +49,6 @@ Url to the api endpoint of Domoticz
 ### roomplan: number
 Number of the roomplan in Domoticz to use in DomustoDash
 
-
 ## Dashboard
 
 ### theme: string
