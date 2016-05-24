@@ -23,10 +23,10 @@ Besides Domoticz data, DomustoDash supports some standalone widgets which could 
 ## Themes
 
 #### Theme: `default` based on [frontpage.html](https://www.domoticz.com/forum/viewtopic.php?f=8&t=4698)
-![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png)
+![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-desktop.png?v=3)
 
 #### Theme: `default` on small screen
-![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-small.png)
+![DumustoDash screenshot](http://usto.nl/misc/domusto/DomustoDash-small.png?v2)
 
 #### Theme: `lcd`, color-scheme: `yellow`
 ![DumustoDash screenshot](http://usto.nl/misc/domusto/theme-lcd-yellow.png)
@@ -48,7 +48,6 @@ Url to the api endpoint of Domoticz
 
 ### roomplan: number
 Number of the roomplan in Domoticz to use in DomustoDash
-
 
 ## Dashboard
 
